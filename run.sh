@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # If a program is in a non-executable partition, then this can be used to move it
-# to /tmp, where it can be run normally
+# to /tmp, where it can be run normally (this is true on chromebooks at least)
 #
 # Takes two arguments
 # ./run.sh filename [execution-command]
